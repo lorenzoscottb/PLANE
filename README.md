@@ -1,4 +1,4 @@
-# PLANE: a dynamyc resource for compositional entailment
+# PLANE: a dynamyc resource for compositional entailment :airplane: 
 
 The repo contians the main PLANE resource, and the training-test splits used in the COLING 2022 supervised leanring experiments
 
