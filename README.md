@@ -5,17 +5,20 @@ The repo contians the main PLANE resource, and the training-test splits used in 
 
 ### Cite
 
-If you use PLANE for your work, please cite the main COLING 2022 paper (now temporary version).
+If you use PLANE for your work, please cite the main COLING 2022 paper.
 ```
-@inproceedings{bertolini-etal-2022-temp,
-    title = "Testing Large Language Models on Compositionality and Inference with Phrase–Level Adjective–Noun Entailment",
+@inproceedings{bertolini-etal-2022-testing,
+    title = "Testing Large Language Models on Compositionality and Inference with Phrase-Level Adjective-Noun Entailment",
     author = "Bertolini, Lorenzo  and
       Weeds, Julie  and
       Weir, David",
     booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
-    month = August,
+    month = oct,
     year = "2022",
+    address = "Gyeongju, Republic of Korea",
     publisher = "International Committee on Computational Linguistics",
-    pages = "xx--xx",
+    url = "https://aclanthology.org/2022.coling-1.359",
+    pages = "4084--4100",
 }
+
 ```
