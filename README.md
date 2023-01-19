@@ -2,8 +2,11 @@
 
 The repo contians the main PLANE resource, and the training-test splits used in the COLING 2022 supervised leanring experiments
 
+## Trained Model
 
-### Cite
+You can find a pre-trend BERT model (on the 2nd out-of-distribution split) [here](https://huggingface.co/lorenzoscottb/bert-base-cased-PLANE-ood-2?text=A+fake+smile+is+a+smile).
+
+## Cite
 
 If you use PLANE for your work, please cite the main COLING 2022 paper.
 ```
