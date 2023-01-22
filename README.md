@@ -2,9 +2,21 @@
 
 The repo contians the main PLANE resource, and the training-test splits used in the COLING 2022 supervised leanring experiments
 
-## Trained Model
+## 🤗 Dataset
 
-You can find a pre-trend BERT model (on the 2nd out-of-distribution split) [here](https://huggingface.co/lorenzoscottb/bert-base-cased-PLANE-ood-2?text=A+fake+smile+is+a+smile).
+You can also use the train/test splits useed in the supervised experiments via hugging face `datasets` library:
+
+``py
+from datasets import load_dataset
+
+dataset = load_dataset("lorenzoscottb/PLANE-ood")
+``
+
+You can find the dataset with its card [here](https://huggingface.co/datasets/lorenzoscottb/PLANE-ood).
+
+## 🤗 Tuned Model
+
+A pre-trend BERT model (on the 2nd out-of-distribution split) [here](https://huggingface.co/lorenzoscottb/bert-base-cased-PLANE-ood-2?text=A+fake+smile+is+a+smile).
 
 ## Cite
 
