@@ -4,13 +4,14 @@ The repo contians the main PLANE resource, and the training-test splits used in 
 
 ## 🤗 Dataset
 
-You can also use the train/test splits useed in the supervised experiments via hugging face `datasets` library:
+You can also use the train/test splits used in the supervised experiments via hugging face `datasets` library:
 
-``py
+
+```py
 from datasets import load_dataset
 
 dataset = load_dataset("lorenzoscottb/PLANE-ood")
-``
+```
 
 You can find the dataset with its card [here](https://huggingface.co/datasets/lorenzoscottb/PLANE-ood).
 
