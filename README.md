@@ -17,7 +17,29 @@ You can find the dataset with its card [here](https://huggingface.co/datasets/lo
 
 ## 🤗 Tuned Model
 
-A pre-trend BERT model (on the 2nd out-of-distribution split) [here](https://huggingface.co/lorenzoscottb/bert-base-cased-PLANE-ood-2?text=A+fake+smile+is+a+smile).
+A pre-trend BERT model (on the 2nd out-of-distribution split) [here](https://huggingface.co/lorenzoscottb/bert-base-cased-PLANE-ood-2?text=A+fake+smile+is+a+smile), and can be direclty used via the `transformers` library's `pipeline`
+
+```py
+from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
+
+model_name = "lorenzoscottb/bert-base-cased-PLANE-ood-2"
+tokenizer  = AutoTokenizer.from_pretrained(model_name)
+model      = AutoModelForSequenceClassification.from_pretrained(model_name)
+
+test_inferences = [
+    "A red car is a vehicle",
+    "A small cat is a small mammal",
+    "A fake smile is a smile",
+]
+
+classifier = pipeline(
+    task="text-classification", 
+    model=model, 
+    tokenizer=tokenizer,
+)
+
+predictions = classifier(test_inferences)
+```
 
 ## Cite
 
