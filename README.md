@@ -1,6 +1,6 @@
 # PLANE: a dynamyc resource for compositional entailment :airplane: 
 
-The repo contians the main PLANE resource, and the training-test splits used in the COLING 2022 supervised leanring experiments
+The repo contians the PLANE resource, and the training-test splits used in the supervised leanring experiments of the COLING 2022 paper [Testing Large Language Models on Compositionality and Inference with Phrase-Level Adjective-Noun Entailment](https://aclanthology.org/2022.coling-1.359/)
 
 ## 🤗 Dataset
 
